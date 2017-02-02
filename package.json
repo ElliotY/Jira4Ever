@@ -1,0 +1,17 @@
+{
+  "name": "Jira4Ever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js & lt --port 4370 --subdomain Jira4Ever"
+  },
+  "author": "Elliot Yaghoobia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.79.0",
+    "require": "^2.4.20"
+  }
+}
